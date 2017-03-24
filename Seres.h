@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "Fruta.h"
 using namespace std;
 
 class Seres{
