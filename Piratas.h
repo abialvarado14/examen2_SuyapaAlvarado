@@ -1,4 +1,5 @@
 #include "Seres.h"
+#include "Fruta.h"
 #pragma once
 
 class Piratas : public Seres{
@@ -9,6 +10,7 @@ class Piratas : public Seres{
 		string funcion;
 	public:
 		Piratas(string,int,string,bool,bool,bool,string, string, string);
+		Piratas(string,int,string,bool,bool,bool,string, string, string, Fruta*);
 		string getOceano();
 		string getTripulacion();
 		string getFuncion();

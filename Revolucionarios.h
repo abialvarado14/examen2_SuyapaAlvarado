@@ -8,6 +8,7 @@ class Revolucionarios : public Seres{
 	
 	public:
 		Revolucionarios(string,int,string,bool,bool,bool,string);
+		Revolucionarios(string,int,string,bool,bool,bool,string, Fruta*);
 		string getFecha();
 
 };

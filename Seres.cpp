@@ -10,6 +10,16 @@ Seres::Seres(string Raza, int years, string name, bool hakio, bool hakia, bool h
 	hakiking = hakik;
 }
 
+Seres::Seres(string Raza, int years, string name, bool hakio, bool hakia, bool hakik, Fruta* f){
+	raza = Raza;
+	edad = years;
+	nombre = name;
+	hakiobs = hakio;
+	hakiarm = hakia;
+	hakiking = hakik;
+	fruit = f;
+}
+
 string Seres::getRaza(){
 	return raza;
 }
