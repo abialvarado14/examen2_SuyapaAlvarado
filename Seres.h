@@ -3,7 +3,7 @@
 using namespace std;
 
 class Seres{
-	private:
+	protected:
 		string raza;
 		int edad;
 		string nombre;
