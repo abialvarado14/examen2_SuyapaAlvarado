@@ -1,4 +1,5 @@
 #include "Seres.h"
+#include "Piratas.h"
 
 Piratas::Piratas(string Raza, int years, string name, bool hakio, bool hakia, bool hakik, string ocean, string trip, string func) : Seres(Raza, years, name, hakio, hakia, hakik){
 	oceano = ocean;
@@ -12,14 +13,14 @@ Piratas::Piratas(string Raza, int years, string name, bool hakio, bool hakia, bo
 	hakiking = hakik;
 }
 
-Piratas::getOceano(){
+string Piratas::getOceano(){
 	return oceano;
 }
 
-Piratas::getTripulacion(){
+string Piratas::getTripulacion(){
 	return tripulacion;
 }
 
-Piratas::getFuncion(){
+string Piratas::getFuncion(){
 	return funcion;
 }
